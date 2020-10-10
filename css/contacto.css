@@ -86,3 +86,10 @@
 .social-icon {
     width: 35px;
 }
+
+.badMessage {
+    color: red;
+}
+.succesMessage {
+    color: green;
+}
