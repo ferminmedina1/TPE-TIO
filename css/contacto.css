@@ -1,0 +1,95 @@
+
+.article-consultas {
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    margin: 50px 0;
+    width: 800px;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-consultas h1 {
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.article-consultas section {
+    margin: 0 40px;
+}
+
+.article-consultas section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+    width: 10vh;
+    height: 10vh;
+}
+
+.arrow img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.left-arrow {
+    position: fixed;
+    right: 0;
+    top: 45vh;
+}
+
+.right-arrow {
+    position: fixed;
+    right: 30vh;
+    top: 45vh;
+    border-radius: 5px 0 0 5px;
+}
+
+.no-display {
+    display: none;
+}
+
+.redes-sociales {
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 0 5px 5px 5px;
+    position: fixed;
+    right: 0;
+    top: 45vh;
+    width: 30vh;
+}
+
+.redes-sociales li {
+    list-style: none;
+}
+
+.red-social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.red-social a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.social-icon {
+    width: 35px;
+}
+
+.badMessage {
+    color: red;
+}
+.succesMessage {
+    color: green;
+}
