@@ -1,0 +1,56 @@
+.contacto {
+    height: 648px;
+    height: 771px;
+    width: 100%;
+}
+
+/* LISTA DE CONTACTO */
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    width: 30%;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 20px;
+    border: 5px solid green;
+    border-radius: 10px;
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconWhatsapp, .iconFacebook, .iconInstagram, .iconHorario {
+   
+    width: 100px;
+    height: 100px;
+    transition: all 500ms ease;
+    border-radius: 100%;
+    margin: 4px;
+
+}
+
+.textoRedes {    
+
+    margin-left: 20px;    
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    transition: all 500ms ease;
+    width: auto;
+    font-weight: bold;
+    color: black;
+    
+}
