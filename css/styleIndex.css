@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Prompt&display=swap');
 
 body, html {
     height: 100%;
@@ -76,7 +75,6 @@ nav{
 }
 
 .contenedorArticle{
-    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,7 +84,6 @@ nav{
 .contenedorInfo{
     width: 50%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: white;
     border: 5px solid rgb(64, 182, 64);
@@ -140,16 +137,4 @@ nav{
 
 #copyright{
     color: white;
-}
-
-h2{
-    text-transform: uppercase;
-    font-family: 'Hammersmith One', sans-serif;
-    margin: 1% 0% 2%;
-}
-
-.contenedorMate{
-    font-family: 'Prompt', sans-serif;
-    display: flex;
-    align-items: center;
 }
