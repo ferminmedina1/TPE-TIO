@@ -138,3 +138,8 @@ nav{
 #copyright{
     color: white;
 }
+
+.descripcionMate{
+    font-family: 'Prompt', sans-serif;
+    font-size:90%;
+}
